@@ -1,6 +1,9 @@
 <?php
 
-include "config.php";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "texteditordb";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);

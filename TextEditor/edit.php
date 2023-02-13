@@ -22,7 +22,7 @@
                                 echo "<a class='remove' href='/php/TextEditor/'>x</a>";
                             echo "</div>";
                             echo "<div class='text'>";
-                                echo "<textarea name='notepad' pattern='^[^\"',]*$' class='area' placeholder='Enter Text Here' maxlength='32000' >" . $row["notepad"] . "</textarea>";
+                                echo "<textarea name='notepad' class='area' placeholder='Enter Text Here' maxlength='32000' >" . $row["notepad"] . "</textarea>";
                                 echo "<div class='textbuttons'>";
                                     echo "<button class='darkbutton save' type='submit'>Save File</button>";
                                 echo "</div>";
